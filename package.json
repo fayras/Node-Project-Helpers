@@ -21,7 +21,11 @@
   },
   "dependencies": {
     "app-root-path": "^2.0.1",
+    "inquirer": "^4.0.0",
+    "markup-js": "^1.5.21",
     "minimist": "^1.2.0",
-    "pretty-error": "^2.1.1"
+    "moment": "^2.19.2",
+    "pretty-error": "^2.1.1",
+    "slug": "^0.9.1"
   }
 }
