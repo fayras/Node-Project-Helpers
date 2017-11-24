@@ -4,7 +4,9 @@
   "description": "Node CLI utility for frequent task while working on a web application. (Creating a changelog etc.)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "version": "node index.js version --changelog && git add .",
+    "postversion": "git push && git push --tags"
   },
   "repository": {
     "type": "git",
