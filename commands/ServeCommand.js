@@ -1,3 +1,4 @@
+const path = require('path');
 const Command = require('./Command.js');
 const Spawn = require('./SpawnCommand.js')
 
@@ -7,7 +8,9 @@ class ServeCommand extends Command {
       throw new Error('Serve command need a directory to serve.');
     }
 
-    new Spawn(`node ../js/static_server.js ${this.args._[0]}`, { sync: true }).run();
+    let serve_path = path.join(Command.basePath, this.args._[0]);
+
+    new Spawn(`node js/static_server.js ${serve_path}`, { sync: true }).run();
   }
 }
 
