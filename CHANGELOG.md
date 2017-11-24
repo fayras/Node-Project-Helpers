@@ -2,6 +2,11 @@ Node Project Helpers Changelog
 
 <!-- CHANGES -->
 
+## 0.2.2 _- 25.11.2017_
+#### Fixed
+- Pfad zum Server korrigiert.
+
+
 ## 0.2.1 _- 25.11.2017_
 #### Fixed
 - Pfad für die Server-Datei korrigiert.
