@@ -1,0 +1,27 @@
+{
+  "name": "node-project-helpers",
+  "version": "0.0.1",
+  "description": "Node CLI utility for frequent task while working on a web application. (Creating a changelog etc.)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fayras/Node-Project-Helpers.git"
+  },
+  "author": "Dimitri Tarnavski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fayras/Node-Project-Helpers/issues"
+  },
+  "homepage": "https://github.com/fayras/Node-Project-Helpers#readme",
+  "bin": {
+    "nph": "index.js"
+  },
+  "dependencies": {
+    "app-root-path": "^2.0.1",
+    "minimist": "^1.2.0",
+    "pretty-error": "^2.1.1"
+  }
+}
