@@ -8,9 +8,10 @@ class ServeCommand extends Command {
       throw new Error('Serve command need a directory to serve.');
     }
 
+    let server_path = path.join(__dirname, '../js/static_server.js');
     let serve_path = path.join(Command.basePath, this.args._[0]);
 
-    new Spawn(`node js/static_server.js ${serve_path}`, { sync: true }).run();
+    new Spawn(`node ${server_path} ${serve_path}`, { sync: true }).run();
   }
 }
 
