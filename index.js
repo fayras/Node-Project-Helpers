@@ -4,4 +4,4 @@ require('pretty-error').start().skipNodeFiles().skipPath('bootstrap_node.js');
 const CommandDispatcher = require('./commands/CommandDispatcher.js');
 
 const userArgs = process.argv.slice(2);
-new CommandDispatcher(userArgs);
+CommandDispatcher.execute(userArgs);
