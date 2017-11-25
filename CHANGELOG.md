@@ -2,6 +2,12 @@ Node Project Helpers Changelog
 
 <!-- CHANGES -->
 
+## 0.3.0 _- 25.11.2017_
+#### Added
+- Es ist nun möglich in der "package.json" einen Ordner für eigene Kommandos anzugeben (mit "nphCustomCommands": "dir").
+
+
+
 ## 0.2.2 _- 25.11.2017_
 #### Fixed
 - Pfad zum Server korrigiert.

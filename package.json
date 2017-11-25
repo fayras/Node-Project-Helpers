@@ -1,6 +1,6 @@
 {
   "name": "node-project-helpers",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "description": "Node CLI utility for frequent task while working on a web application. (Creating a changelog etc.)",
   "main": "index.js",
   "scripts": {
